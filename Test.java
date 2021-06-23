@@ -11,7 +11,7 @@ public class Test {
 		
 		final Process p = Runtime.getRuntime().exec("ipconfig /ALL");
 		final BufferedReader br = new BufferedReader(new InputStreamReader(new BufferedInputStream(p.getInputStream())));
-		for(String s; (s = br.readline()) != null;) {
+		for(String s; (s = br.readLine()) != null;) {
 			System.out.println(s);
 		}
 		
