@@ -10,7 +10,7 @@ public class Test2 {
 	
 	public static void main (String [] args) throws URISyntaxException, IOException{
 		
-		Desktop.getDesktop().browse(new URI("https://gympet.de"));
+		Desktop.getDesktop().browse(new URI("https://google.de"));
 		
 	}
 
