@@ -5,7 +5,6 @@ import java.io.BufferedInputStream;
 
 public class Test {
 	
-	
 	public static void main (String [] args) throws IOException{
 		
 		final Process p = Runtime.getRuntime().exec("ipconfig /ALL");
